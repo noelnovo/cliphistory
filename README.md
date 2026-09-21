@@ -115,7 +115,7 @@ max_age_days = 0              # 0 = keep forever
 strict = false                # fail instead of falling back when tools miss
 
 [modules]
-source_url = "https://github.com/noelpatata/cliphistory"  # file:///path works too
+source_url = "https://github.com/noelnovo/cliphistory"  # file:///path works too
 channel = "stable"            # latest published release
 auto_update = false
 # local_dir = "../target/debug"     # dev mode: skip downloads entirely

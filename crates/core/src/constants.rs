@@ -80,7 +80,7 @@ pub const CONNECT_TIMEOUT_SECS: u64 = 10;
 pub const DOWNLOAD_TIMEOUT_SECS: u64 = 120;
 pub const MAX_RELEASE_MANIFEST_BYTES: usize = 4 * 1024 * 1024;
 
-pub const DEFAULT_SOURCE_URL: &str = "https://github.com/noelpatata/cliphistory";
+pub const DEFAULT_SOURCE_URL: &str = "https://github.com/noelnovo/cliphistory";
 pub const DEFAULT_CHANNEL: &str = "stable";
 pub const CHANNEL_STABLE: &str = "stable";
 

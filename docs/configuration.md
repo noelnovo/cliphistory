@@ -134,7 +134,7 @@ How modules are sourced, updated and where they live.
 
 | Key                 | Type     | Default                                        | Description |
 |---------------------|----------|------------------------------------------------|-------------|
-| `source_url`        | URL/path | `https://github.com/noelpatata/cliphistory`         | Release source queried by the downloader. Accepts any GitHub repository URL, a mirror with identical release layout, or a local directory (`file:///path` or `/path`) containing `manifest.json` plus artifacts. |
+| `source_url`        | URL/path | `https://github.com/noelnovo/cliphistory`         | Release source queried by the downloader. Accepts any GitHub repository URL, a mirror with identical release layout, or a local directory (`file:///path` or `/path`) containing `manifest.json` plus artifacts. |
 | `channel`           | string   | `"stable"`                                     | Which release to track. `"stable"` resolves to the latest published release. Pins override the channel per module. |
 | `auto_update`       | bool     | `false`                                        | On daemon start, refresh installed modules when the tracked release differs from what's installed. |
 | `install_dir`       | path     | `$XDG_DATA_HOME/cliphistory/modules`              | Installation root. Layout: `<dir>/<module-id>/<tag>/` with a `current` symlink. Ignored when `local_dir` is set. |

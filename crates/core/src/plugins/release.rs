@@ -188,19 +188,19 @@ mod tests {
 
     #[test]
     fn manifest_url_remote_no_tag() {
-        let mm = mm_with_source("https://github.com/noelpatata/cliphistory");
+        let mm = mm_with_source("https://github.com/noelnovo/cliphistory");
         assert_eq!(
             mm.manifest_url(None),
-            "https://github.com/noelpatata/cliphistory/releases/latest/download/manifest.json"
+            "https://github.com/noelnovo/cliphistory/releases/latest/download/manifest.json"
         );
     }
 
     #[test]
     fn manifest_url_remote_with_tag() {
-        let mm = mm_with_source("https://github.com/noelpatata/cliphistory");
+        let mm = mm_with_source("https://github.com/noelnovo/cliphistory");
         assert_eq!(
             mm.manifest_url(Some("v1.0")),
-            "https://github.com/noelpatata/cliphistory/releases/download/v1.0/manifest.json"
+            "https://github.com/noelnovo/cliphistory/releases/download/v1.0/manifest.json"
         );
     }
 
@@ -215,10 +215,10 @@ mod tests {
 
     #[test]
     fn asset_url_remote_source() {
-        let mm = mm_with_source("https://github.com/noelpatata/cliphistory");
+        let mm = mm_with_source("https://github.com/noelnovo/cliphistory");
         assert_eq!(
             mm.asset_url("v1.0", "cliphistory-clipboard-wayland"),
-            "https://github.com/noelpatata/cliphistory/releases/download/v1.0/cliphistory-clipboard-wayland"
+            "https://github.com/noelnovo/cliphistory/releases/download/v1.0/cliphistory-clipboard-wayland"
         );
     }
 
